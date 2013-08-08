@@ -58,12 +58,6 @@ class Distance
 		"#{@radians * Distance.unit_conversion[@unit]} #{@unit}"
 
 
-if window?
-	window.Distance = Distance
-else
-	module.exports = Distance
-
-
 Distance.between = (A, B) ->
 	degrees_to_radians = Math.PI / 180
 	A_lat = (A.lat or A[1] or 0) * degrees_to_radians
@@ -111,3 +105,6 @@ Distance.systems =
 
 
 Distance.distance_regexp = ///^ ([\d\.]+) \s* (#{ Object.keys(Distance.unit_conversion).join '|' }) $///
+
+
+module.exports = Distance
