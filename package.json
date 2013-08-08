@@ -1,5 +1,5 @@
 {
-  "name" : "geo-distance",
+  "name" : "geo-distance-safe",
   "version" : "0.1.2",
   "description" : "Common JS module for calculating and converting Earth distances using correct great-circle distance formula.",
   "author": "Bjarke Walling <bwp@bwp.dk>",
