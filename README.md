@@ -1,9 +1,8 @@
-
 Common JS module for calculating and converting Earth distances using correct
 [great-circle distance formula](http://en.wikipedia.org/wiki/Great-circle_distance).
 
 
-This is a fork of walling/geo-distance which does not mutate global state.
+This is a fork of [walling/geo-distance](http://github.com/walling/geo-distance) which does not mutate global state.
 
 Installation
 ------------
